@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #8ae48a;
+}
+
+header {
+    background-image: linear-gradient(to top, #31A85D, #40DB7A);
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+header > nav {
+    background-color: #31A85D;
+    text-align: left;
+    padding: 5px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+main {
+    text-align: justify;
+    background-color: white;
+    padding: 10px;
+    margin: 0px 200px 0px 200px;
+    border-radius: 2px 2px 10px 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.452);
+
+}
+
+section > p {
+    text-indent: 20px;
+}
+
+section > h1 {
+    font-family: idroid;
+    color: rgb(14, 116, 14);
+}
+
+a {
+    color: rgb(2, 104, 2);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section > h2 {
+    font-family: idroid;
+    color: rgb(14, 116, 14);
+    background-image: linear-gradient(to right, rgba(144, 238, 144, 0.671), white);
+}
+
+footer {
+    background-color: rgb(2, 58, 2);
+    text-align: center;
+    margin: 4px 0px 0px 0px;
+}
+
+footer > p {
+    padding: 5px;
+    color: rgb(135, 209, 120);
+}
+
+footer > p > a {
+    color: white;
+}
+
+#saibamais {
+    background-color: #365C44;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.466);
+}
+
+#saibamais > h3 {
+    background-color: #55e455;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}

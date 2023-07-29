@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando alguns links com div</title>
+    <style>
+        body {
+            font: normal 20px Arial, Helvetica, sans-serif;
+        }
+        a {
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+        a:visited {
+            color: brown;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .especial:hover {
+            background-color: rgb(190, 141, 141);
+        }
+        .especial::before {
+            content: '->';
+        }
+        .especial::after {
+            content: '<-';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+    <p>Para aprender HTML e CSS acesse o <a href="https://gustavoguanabara.github.io">Github do Guanabara</a></p>
+    <p>Para saber sobre os padrões acesse o <a href="https://www.w3c.br">Escritório da W3C no Brasil</a></p>
+    <p>para acompanhar os curos acesse o <a href="https://www.youtube.com/cursoemvideo/" class="especial">CursoemVideo</a></p>
+    <p></p>
+</body>
+</html>
