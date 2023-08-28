@@ -1,0 +1,90 @@
+@charsetUTF-8;
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+}
+
+header {
+    background-color: #000000;
+    padding: 30px;
+}
+
+header h1 {
+    padding-top: 18px;
+    text-align: center;
+    font-size: 7vw;
+    color: #ffffff;
+}
+
+header p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+header a {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+main p {
+    padding: 30px;
+    color: #000000;
+    font-size: 3vw;
+    line-height: 2em;
+}
+
+section > p#joaninha {
+    background-color: #00000071;
+    border-radius: 7px;
+    width: 500px;
+    padding: 10px;
+    color: white;
+
+}
+
+section#fundo-flor {
+    background: #ffffff url(imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 30px;
+}
+
+section#fundo-carta {
+    background: #ffffff url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 30px;
+}
+
+section > p#cartas {
+    background-color: #00000071;
+    border-radius: 7px;
+    width: 500px;
+    padding: 10px;
+    color: white;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    font-size: 10PX;
+    padding: 5px;
+}
+
+footer > p {
+    color: #ffffff;
+}
