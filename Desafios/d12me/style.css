@@ -1,4 +1,4 @@
-@charsetUTF-8;
+@charset "UTF-8";
 
 * {
     margin: 0px;
@@ -79,12 +79,8 @@ section > p#cartas {
 }
 
 footer {
-    background-color: #000000;
+    background-color: black;
     text-align: center;
-    font-size: 10PX;
-    padding: 5px;
-}
-
-footer > p {
-    color: #ffffff;
+    color: white;
+    padding: 10px;
 }
