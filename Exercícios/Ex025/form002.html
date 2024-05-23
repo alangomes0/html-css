@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário novo</title>
+</head>
+<body>
+    <h1>Mias atributos para form e inputs</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <label for="inome">
+            <p>Nome:</p> <input type="text" name="nome" id="inome" autocomplete="username" required>
+        </label>
+        <label for="isenha">
+            <p>Senha:</p> <input type="password" nome="senha"id="isenha" minlength="8" maxlength="40" placeholder="No mínimo oito caracteres" autocomplete="current-password" required>
+        </label>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <input type="color">
+    <input type="date">
+    <input type="datetime-local">
+    <input type="email">
+    <input type="file" accept=".png">
+    <input type="search">
+    <input type="range" max="250px" >
+</body>
+</html>
