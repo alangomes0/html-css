@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mais input</title>
+    <style>
+        .entrada {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>mais input</h1>
+    <form action="cadastro.php">
+        <label for="inome">
+            <p>Nome: <input type="text" name="nome" id="inome"></p>
+        </label>
+        <label for="inota">
+            <p>Nota: <input type="number" name="nota" id="inota" required step="0.1" min="0" max="10"></p>
+        </label>
+    </form>
+    <input class="entrada" type="color"><br>
+    <input class="entrada" type="date"><br>
+    <input class="entrada" type="datetime-local"><br>
+    <input class="entrada" type="email"><br>
+    <input class="entrada" type="file" accept=".png"><br>
+    <input class="entrada" type="search"><br>
+    <input class="entrada" type="range" max="250px"><br>
+</body>
+</html>
