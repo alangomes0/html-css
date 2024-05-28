@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Outro form</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Contato</legend>
+            <label for="inome">
+                    <p>Nome
+                        <input type="text" id="inome" required autocomplete="name">
+                    </p>
+            </label>
+            <label for="iemail">
+                    <p> Email
+                        <input type="email" name="email" id="iemail" required placeholder="exemplo123@rgba.com" autocomplete="email">
+                    </p>
+                </label>
+                <label for="itel">
+                    <p>Telefone
+                        <input type="tel" name="tel" id="itel"  required placeholder="(xx)xxxx-xxxx" autocomplete="tel">
+                    </p>
+                </label>
+                <label for="ienviar">
+                <input type="submit" id="ienviar" value="Enviar">
+                </label>
+                <label for="ireset">
+                    <input type="reset" id="ireset" value="Limpar">
+                </label>
+        </fieldset>
+    </form>
+</body>
+</html>
