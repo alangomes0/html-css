@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, datalist  e texarea</title>
+</head>
+<body>
+    <h1>Select, datalist e textarea</h1>
+    <form action="action" method="get">
+
+        <p>
+            Escolha um animal de estimação:
+            <select name="pets" id="ipets">
+                <option value="gato">Gato</option>
+                <option value="cachorro">Cachorro</option>
+                <option value="hamster">Hamster</option>
+                <option value="doninha">Doninha</option>
+                <option value="porco-espinho">Porco espinho</option>
+            </select>
+        </p>
+        <p>
+            <label for="ipet">Escolha um animal de estimação que você gostaria de ter:</label>
+            <select name="pet" id="ipet">
+                <option value="">-- Escolha --</option>
+                <optgroup label="Mais comuns">
+                    <option value="gato">Gato</option>
+                    <option value="cachorro">Cachorro</option>
+                    <option value="hamster">Hamster</option>
+                    <option value="doninha">Doninha</option>
+                    <option value="porco-espinho">Porco espinho</option>
+                </optgroup>
+                <optgroup label="Pássaros">
+                    <option value="papagaio">Papagaio</option>
+                    <option value="arara" disabled>Arara</option>
+                    <option value="pombo">Pombo</option>
+                    <option value="corvo">Corvo</option>
+                    <option value="cacatua" disabled>Cacatua</option>
+                    <option value="calopsita">Calopsita</option>
+                </optgroup>
+                <optgroup label="Aquáticos">
+                    <option value="peixe-dourado">Peixe-dourado</option>
+                    <option value="arraia">Arraia</option>
+                    <option value="peixe-espada">Peixe-espada</option>
+                    <option value="caravela">Caravela</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Sua profissão:</label>
+            <input type="text" name="prof" id="iprof" list="profissions">
+            <datalist id="profissions">
+                <option value="ADM">Administrador(a)</option>
+                <option value="PROF">Professor</option>
+                <option value="VET">Veterinário(a)</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Avalie nossos serviços:</label><br>   
+            <textarea name="msg" id="imsg" rows="20" cols="30"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+    </form>
+</body>
+</html>

@@ -6,6 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Outros input</h1>
+    <form action="cadastro.php" method="post">
+        <p>Selecione uma cor:
+            <label for="icor"></label>
+            <input type="color" name="color" id="icor" value="#324498"><br>
+        </p>
+        <p>  Avalie os nossos serviços de 0 a 10!
+            <label for="irange"></label>
+            <input type="range" name="nível" id="irange" min="0" max="10"><br>
+        </p>
+        <p> Escolha uma imagem ou documento!
+            <label for="ifile"></label>
+            <input type="file" name="file" id="ifile" accept=".png, .jpeg, .pdf"><br>
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>
