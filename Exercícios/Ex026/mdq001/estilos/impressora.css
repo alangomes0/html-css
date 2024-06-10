@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* Estilos de impressão */
+* {
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 2.3em;
+}
+
+article {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+
+}
+
+menu {
+    display: none;
+}
+
+article::after {
+    content: 'Artigo retirado do site www.trenzinhodaimagineition.com';
+}
