@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: #233eff;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.534);
+    padding: 10px;
+
+}
